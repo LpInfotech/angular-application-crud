@@ -11,6 +11,7 @@ import { SigninComponent } from './pages/account/signin/signin.component';
 import { RegisterComponent } from './pages/account/register/register.component';
 //import home component
 import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { HomeComponent } from './pages/home/home.component';
     //declare register component
     RegisterComponent,
     //declare register component
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
