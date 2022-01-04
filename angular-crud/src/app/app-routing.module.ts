@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 //declare page path using const
 const routes: Routes =[
   {
-    path:'', //use empty route for set default page property
+    path:'signin', 
     component:SigninComponent
   },
   {
@@ -18,7 +18,7 @@ const routes: Routes =[
     component:RegisterComponent
   },
   {
-   path:'home',
+   path:'', //use empty route for set default page property
    component:HomeComponent
   },
   //when user enter wrong url it will redirect set as default page
