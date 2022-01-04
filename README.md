@@ -7,5 +7,9 @@
 
 # Create new component
 
-ng generate component xyz
-ng generate component  folderName/componentName
+- ng generate component xyz
+- ng generate component  folderName/componentName
+
+# Create new services
+
+- ng generate service hero
