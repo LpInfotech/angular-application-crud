@@ -17,7 +17,8 @@ export class HomeComponent implements OnInit {
     //  console.warn(user.getData());
     //  this.name= user.getData().name;
     this.user.getData().subscribe(data=>{
-      console.warn(data); 
+      debugger;
+     // console.warn(data); 
       this.userData=data;
     })
     
