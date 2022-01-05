@@ -12,6 +12,8 @@ import { RegisterComponent } from './pages/account/register/register.component';
 //import home component
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+//import http module
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,10 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     //imports reactive form module
-    ReactiveFormsModule,   
+    ReactiveFormsModule,  
+    //import http module
+    HttpClientModule 
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
